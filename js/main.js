@@ -4,6 +4,17 @@
 
         var cls = 'active';
 
+
+        /* Campaings */
+        var Campaings = $('.campaings');
+
+        if(Campaings.length > 0){
+            
+        }
+
+
+
+
         $(".sidebar-dropdown > a").click(function() {
             $(".sidebar-submenu").slideUp(200);
             if (

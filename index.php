@@ -76,10 +76,10 @@
 							<div class="img"></div>
 							<div class="right">
 								<div class="name">Andres Peguero</div>
-							<div class="job">Administrador</div>
-							<div class="actions">
-								
-							</div>
+								<div class="job">Administrador</div>
+								<div class="actions">
+
+								</div>
 							</div>
 						</div>
 					</aside>
@@ -88,17 +88,16 @@
 			</header>
 			<!-- Section -->
 			<section> 
-				<div class="section-top">
-					<nav aria-label="breadcrumb">
-						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="#">Home</a></li>
-							<li class="breadcrumb-item"><a href="#">Library</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Data</li>
-						</ol>
-					</nav>
-				</div>
+				
+				<header>
+					<?php include('partials/breadcrumb.php') ?>
+					<?php include('partials/breadcrumb.php') ?>
+					
+				</header>
+				<div class="content">
 
-				<?php include('dashboard.php') ?>
+					<?php include('dashboard.php') ?>
+				</div>
 
 			</section>
 			<!-- end Section -->

@@ -36,5 +36,55 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Campaings -->
+	<div class="campaings">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h2 class="h2">
+						My Campaings <span class="number">18</span>
+					</h2>
+				</div>
+				<div class="col-md-4">
+					
+					<form action="">	
+						<div class="form-group">
+							<i class="icon-search"></i>
+							<input type="search" placeholder="Search a campaing" name="" id="" class="form-control">
+						</div>			
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+
+					<!-- Slider main container -->
+					<div class="swiper-container"> 
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<?php for($a=1;$a<=4;$a++): ?>
+
+								<div class="swiper-slide">
+								<a href="#" class="card-doc-one radius-3">
+										<h6 class="title">Lorem ipsum dolor sit amet.</h6>
+										<time class="date">25 Jul, 2018</time>
+										<div class="version">
+											Versions <strong>(3)</strong>
+										</div>
+									</a>
+								</div>
+							<?php endfor; ?>
+
+						</div>
+					</div>
+					<!-- end swiper -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end Campaings -->
+
 </section>
 <!-- end Dashboard -->
