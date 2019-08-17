@@ -5,22 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Bootstrap CSS -->
 	<title>Written Sales</title>
-	<link href="images/favicon_edwards.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet"  type="text/css"  href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"> 
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="css/lity.css">  
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
 </head>
-<body class="menu-collapse ">
-
+<body>
 	<main>
-
-
 		<div class="sidebar-menu">
 			<div class="logo">
-				<img src="images/icon-written-sales.svg" class="mobile" width="38" alt="">
-				<img src="images/logo-written-sales.svg" class="web" width="150" alt="">
+				<a href="#" >
+					<img src="images/icon-written-sales.svg" class="mobile" width="38" alt="">
+					<img src="images/logo-written-sales.svg" class="web" width="190" alt="">
+				</a>
 			</div>
 			<nav id="sidebar" class="sidebar-wrapper">
 				<ul>
@@ -34,15 +34,15 @@
 						<div class="sidebar-submenu">
 							<ul>
 								<li>
-									<a href="#">
+									<a href="#" class="trans-3">
 										Dashboard 1
 									</a>
 								</li>
 								<li>
-									<a href="#">Dashboard 2</a>
+									<a href="#" class="trans-3">Dashboard 2</a>
 								</li>
 								<li>
-									<a href="#">Dashboard 3</a>
+									<a href="#" class="trans-3">Dashboard 3</a>
 								</li>
 							</ul>
 						</div>
@@ -58,7 +58,7 @@
 			</nav>
 		</div> 
 
-			<div class="section-content">
+		<div class="section-content">
 			<header class="header">
 				<div class="wrap-create-btn">
 					<div class="btn-group">
