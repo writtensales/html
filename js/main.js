@@ -13,6 +13,33 @@
         }
 
 
+        var campaingsSlide = new Swiper('.campaings .swiper-container', {
+            speed: 400,
+               spaceBetween:50,
+            slidesPerView: 5,
+       
+            navigation: {
+                nextEl: '.campaings .swiper-button-next',
+                prevEl: '.campaings .swiper-button-prev',
+            },
+
+        });
+        
+
+        var featuresSlide = new Swiper('.features-slider .swiper-container', {
+            speed: 400,
+            slidesPerView: 1 ,
+              autoplay: {
+                delay: 5000,
+              },
+                pagination: {
+    el: '.features-slider .swiper-pagination',
+    type: 'bullets',
+    clickable:true
+  },
+
+        });
+
 
 
         $(".sidebar-dropdown > a").click(function() {

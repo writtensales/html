@@ -313,7 +313,8 @@ template {
 }
 
 .h2,h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .h3,h3 {
