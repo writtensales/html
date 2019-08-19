@@ -10,13 +10,30 @@
 	</div>
 </footer>
 </main>
+
+<!-- Modal Confirm Delete -->
+<div class="modal fade deleteModal" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body"> <h2 class="title">Do you want to delete this?</h2> </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-fill violet radius-3 trans-3" data-dismiss="modal">Cancel</button>
+        <a href="#delete" id="delete" class="btn btn-fill red radius-3 trans-3">Delete</a> </div>
+    </div>
+  </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script src="js/popper.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js"></script>
 <script  src="js/swiper.min.js"></script>  
 <script src="js/lity.js" type="text/javascript"></script>
-<script   src="js/main.js"></script> 
+ <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+ <script   src="js/main.js"></script> 
 
 </body>
 </html>

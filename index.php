@@ -2,7 +2,7 @@
 				<!-- Section -->
 			<section> 
 				
-				<header>
+				<header  class="heading-second">
 					<?php include('partials/breacrumb.php') ?> 
 					
 				</header>

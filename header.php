@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet"  type="text/css"  href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-		<link rel="stylesheet" type="text/css" href="css/lity.css">  
+	<link rel="stylesheet" type="text/css" href="css/lity.css">  
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,7 +24,7 @@
 			</div>
 			<nav id="sidebar" class="sidebar-wrapper">
 				<ul>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Users</span></a></li>
+					<li><a href="campaing.php" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns</span></a></li>
 					<li class="sidebar-dropdown">
 						<a href="#">
 							<i class="icon-instagram"></i>
@@ -47,8 +47,8 @@
 							</ul>
 						</div>
 					</li>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Organic Social</span></a></li>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Landing Page</span></a></li>
+					<li><a href="create-campaign.php" class="trans-3"><i class="icon-instagram"></i> <span>Create a project</span></a></li>
+					<li><a href="lastest-bundles.php" class="trans-3"><i class="icon-instagram"></i> <span>Lastest Bundles</span></a></li>
 					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Upsell</span></a></li>
 					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>B2B Email Marketing</span></a></li>
 					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Direct Mail</span></a></li>
@@ -60,48 +60,68 @@
 
 		<div class="section-content">
 			<header class="header">
-				<div class="wrap-create-btn">
-					<div class="btn-group">
-						<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Create Project
-						</button>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Separated link</a>
-						</div>
-					</div>
-				</div>
-				<div class="wrap-links">
-					<a href="#" class="wrap-link underline">
-						<i class="icon-my-campaigns"></i> My Campaings
-					</a>
-					<a href="#" class="wrap-link underline">
-						<i class="icon-facebook-group"></i> Facebook Group
-					</a>
+				<div class="container-fluid">
+					<div class="row align-items-center d-flex">
+						<div class="col-md-3">
+							<!-- create project -->
+							<div class="wrap-create-btn">
 
-				</div>
-				<div class="wrap-right">
-					<aside class="user-wrap">
-						<div class="top-profile">
-							<div class="img"></div>
-							<div class="right">
-								<div class="name">Andres Peguero</div>
-								<div class="job">Administrador</div>
-								<div class="actions">
-									<a href="#" class="action trans-3 underline">
-										<i class="icon-setting"></i> Settings
-									</a>
-									<a href="#" class="action trans-3 underline">
-										<i class="icon-sign-out"></i> Sign out
-									</a>
+								<div class="btn-group">
+									<a href="name-of-your-compaign.php" class="btn btn-create btn-sm"  >
+										Create Project
+									</a>	
+									<button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span class="sr-only">Toggle	 Dropdown</span>
+									</button>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Sales Letter</a>
+										<a class="dropdown-item" href="#">AOrganic Social</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Separated link</a>
+									</div>
+								</div> 
 
-								</div>
+
 							</div>
 						</div>
-					</aside>
+						<div class="col d-flex justify-content-end">
+							
+
+							<!-- end create project -->
+							<div class="wrap-links">
+								<a href="version.php" class="wrap-link underline">
+									<i class="icon-my-campaigns"></i> version
+								</a>
+								<a href="#" class="wrap-link underline">
+									<i class="icon-facebook-group"></i> Facebook Group
+								</a>
+
+							</div>
+							<!-- end wrap links -->
+							<div class="wrap-right">
+								<aside class="user-wrap">
+									<div class="top-profile">
+										<div class="img"></div>
+										<div class="right">
+											<div class="name">Andres Peguero</div>
+											<div class="job">Administrador</div>
+											<div class="actions">
+												<a href="#" class="action trans-3 underline">
+													<i class="icon-setting"></i> Settings
+												</a>
+												<a href="#" class="action trans-3 underline">
+													<i class="icon-sign-out"></i> Sign out
+												</a>
+
+											</div>
+										</div>
+									</div>
+								</aside>
+							</div>
+							<!-- end wrap right -->
+						</div>
+					</div>
 				</div>
 
 			</header>

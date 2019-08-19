@@ -1,6 +1,6 @@
 <!-- Dashboard -->
 <section class="dashboard wrap-cotent">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<h2 class="h2">
@@ -67,7 +67,7 @@
 
 	<!-- Campaings -->
 	<div class="campaings">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-2">
 					<h2 class="h2">
@@ -84,15 +84,14 @@
 					</form>
 				</div>
 				<div class="col-md-2 wrap-filter-sect d-flex justify-content-end">
-					<div class="wrap-filter">
-						<a href="#" class="btn-filter trans-3 radius-3" title="Filter for"><i class="icon-facebook"></i></a>
-					</div>
 					
+					<?php include('partials/filter.php') ?>
+
 				</div>
 			</div>
 		</div>
 		<div class="campaing-list">
-			<div class="container">
+			<div class="container-fluid">
 
 				<div class="row">
 					<div class="col-md-12">
