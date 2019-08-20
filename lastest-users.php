@@ -1,4 +1,11 @@
- 
+ <?php 
+$status = array(
+	'active'=>'active',
+	'inactive'=>'inactive',
+	'blocked'=>'blocked',
+
+)
+  ?>
 <!-- section -->
 <section class="campaign wrap-content">
 
@@ -11,26 +18,12 @@
 				<div class="row d-flex align-items-center justify-content-between">
 					<div class="col-md-4 d-flex align-items-center">
 						<h1 class="h1">
-							Lasted Bundles
+							Lastest Users
 						</h1>
 
 					</div>
-					<!-- <div class="col">
- 
-						<form action="">	
-							<div class="form-group form-search">
-								<i class="icon-search"></i>
-								<input type="search" placeholder="Search a campaing" name="" id="" class="form-control">
-							</div>			
-						</form>
+				 
 			 
-
-					</div> -->
-					<div class="col-md-4 d-flex align-items-center justify-content-end top-links">
-
-						<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add</a>			 
-
-					</div>
 				</div>
 			</div>
 		</header>	
@@ -43,17 +36,18 @@
 						<table width="100%" cellspacing="20" class="table-filter">
 							<thead>
 								<th>Icon</th>
-								<th>Title</th>
-								<th>Created by</th>
-								<th>Date Created</th>
+								<th>Name</th>
+								<th>Email</th>
+								<th># Bundles</th>
+								<th>Status</th>
 								<th>Edit</th>
 								<th>Delete</th>
 							</thead>
 							<tbody>
 								<?php for($a=0;$a<=12;$a++): ?>
 									<tr class="wrap-tr">
-										<td class="icon"><i class="icon-direct-mail"></i></td>
-										<td class="title"><h4><?php echo $a ?> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, veritatis!</h4></td>
+										<td class="icon"><i class="icon-user"></i></td>
+										<td class="title"><h4><?php echo $a ?> John Smith</h4></td>
 										<td class="createdby">John Smith</td>
 										<td class="date-created"><time datetime="2011-01-12">January 12th, 2011</time></td>
 										<td class="action-edit">

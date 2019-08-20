@@ -12,6 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/lity.css">  
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.min.css">
 </head>
 <body>
 	<main>
@@ -24,11 +27,11 @@
 			</div>
 			<nav id="sidebar" class="sidebar-wrapper">
 				<ul>
-					<li><a href="campaing.php" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns</span></a></li>
+					<li><a href="index.php?tpl=campaing" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns</span></a></li>
 					<li class="sidebar-dropdown">
-						<a href="#">
+						<a href="index.php?tpl=lastest-users">
 							<i class="icon-instagram"></i>
-							<span>Sales Letter</span> &nbsp;
+							<span>Users</span> &nbsp;
 							<span class="badge badge-pill badge-warning">New</span>
 						</a>
 						<div class="sidebar-submenu">
@@ -47,11 +50,12 @@
 							</ul>
 						</div>
 					</li>
-					<li><a href="create-campaign.php" class="trans-3"><i class="icon-instagram"></i> <span>Create a project</span></a></li>
-					<li><a href="lastest-bundles.php" class="trans-3"><i class="icon-instagram"></i> <span>Lastest Bundles</span></a></li>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Upsell</span></a></li>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>B2B Email Marketing</span></a></li>
-					<li><a href="#" class="trans-3"><i class="icon-instagram"></i> <span>Direct Mail</span></a></li>
+					<li><a href="index.php?tpl=create-campaign" class="trans-3"><i class="icon-instagram"></i> <span>Create a project</span></a></li>
+					<li><a href="index.php?tpl=lastest-bundles" class="trans-3"><i class="icon-instagram"></i> <span>Lastest Bundles</span></a></li>
+					<li><a href="index.php?tpl=create-bundle" class="trans-3"><i class="icon-instagram"></i> <span>Create Bundle</span></a></li>
+					<li><a href="index.php?tpl=version" class="trans-3"><i class="icon-instagram"></i> <span>Version</span></a></li>
+					<li><a href="index.php?tpl=copy-templates" class="trans-3"><i class="icon-instagram"></i> <span>Copy Templates</span></a></li>
+
 					<li><a href="#" class="trans-3 collapse-menu"><i class="icon-circle-right"></i> <span>Hide menu</span></a></li>
 					
 				</ul>
@@ -67,7 +71,7 @@
 							<div class="wrap-create-btn">
 
 								<div class="btn-group">
-									<a href="name-of-your-compaign.php" class="btn btn-create btn-sm"  >
+									<a href="index.php?tpl=name-of-your-compaign" class="btn btn-create btn-sm"  >
 										Create Project
 									</a>	
 									<button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -90,7 +94,7 @@
 
 							<!-- end create project -->
 							<div class="wrap-links">
-								<a href="version.php" class="wrap-link underline">
+								<a href="version" class="wrap-link underline">
 									<i class="icon-my-campaigns"></i> version
 								</a>
 								<a href="#" class="wrap-link underline">

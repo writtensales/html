@@ -45,7 +45,7 @@
 }
 
 .form-control:focus {
-    border-color: #4ec2d4;
+    border-color: #4ac3d4;
 }
 
 .underline {
@@ -703,6 +703,25 @@ body {
     color:#582e8e !important;
     border:1px solid #582e8e;
 }
+.btn-outline {
+    padding: .7rem 1.5rem;
+    color: #582e8e !important; 
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center; 
+    border:1px solid #582e8e;
+    line-height: 1;
+}
+
+.btn-outline i {
+    margin-right: 1rem;
+}
+.btn-outline.fill:hover {
+    background:#582e8e;color:#fff !important;
+}
 .btn-two {
     border-radius: 1rem;
     font-weight: bold;
@@ -807,6 +826,7 @@ main {
     border-radius: 1rem;
     padding: 0;
     overflow: hidden;
+    z-index: 9999;
 }
 
 .wrap-create-btn .dropdown-menu .dropdown-item {
@@ -1366,6 +1386,10 @@ section {
     padding: 4rem 0;
 }
 
+
+
+
+
 /**  Section Campaings List **/
 .section-campaing-list .campaing-list .col-md-4 {
     margin-bottom: 2rem;
@@ -1375,7 +1399,9 @@ section {
     padding: 2rem 1rem;
     background: #fff;
 }
-
+.heading-breadcrumb{
+    padding:.5rem 1rem;
+}
 .heading-second .top-links > * {
     margin-right: 1rem;
 }
@@ -1394,6 +1420,66 @@ section {
     color: #000;
 }
 
+/** Bundles list **/
+.bundle-list .table-filter{
+    border-collapse:collapse;
+}
+.bundle-list .wrap-tr{
+    border: 2px solid #d6d6d6 !important;
+    border-radius:30px;
+    transition:all .3s ease;
+    cursor:pointer;
+}
+.bundle-list .wrap-tr:hover{
+    background:#f2eff6;
+}
+.bundle-list tr th{
+    padding:1rem 2rem;
+    font-size:1.4rem;
+}
+.bundle-list tr td{
+    padding: 1rem 2rem !important;
+}
+.bundle-list tr td.icon i{
+    padding:2rem;
+    width:7rem;
+    height:7rem;
+    border-radius:50%;
+    background:#582e8e;
+    color:#fff;
+    font-size:3rem;
+    display:inline-block;
+}
+.bundle-list .action-delete a{
+    color:gray;
+}
+.bundle-list .action-delete a:hover{
+    color:#c03434;
+}
+
+/* Data table */
+div.dataTables_wrapper div.dataTables_length select{
+    margin:0 2rem;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding:0 !important;
+}
+.page-item.active .page-link{
+    background:#582e8e;
+    border-color:#582e8e;
+    color:#fff !important;
+}
+.page-link{
+    color:#582e8e !important;
+    border:0 !important;
+    background:#e7e7e7;
+    padding:.5rem 1.3rem;
+    margin: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    border-color: transparent !important;
+    background: none !important;
+}
 /** Modal Delete **/
 .modal .modal-content {
     border-radius: 2rem;

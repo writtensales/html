@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+ 
 <!-- section -->
 <section class="versions wrap-content">
 
@@ -73,4 +73,4 @@
 <!-- end section -->
 </div>
 
-<?php include('footer.php') ?>
+ 

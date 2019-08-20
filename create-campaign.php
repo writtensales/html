@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+ 
 <!-- section -->
 <section class="create-campaign wrap-content">
 
@@ -30,5 +30,4 @@
 </div>
 <!-- end section -->
 
-
-<?php include('footer.php') ?>
+ 

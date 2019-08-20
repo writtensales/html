@@ -11,7 +11,7 @@
 				<div class="row d-flex align-items-center justify-content-between">
 					<div class="col-md-4 d-flex align-items-center">
 						<h1 class="h1">
-							Lasted Bundles
+							Copy Templates
 						</h1>
 
 					</div>
@@ -28,7 +28,7 @@
 					</div> -->
 					<div class="col-md-4 d-flex align-items-center justify-content-end top-links">
 
-						<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add</a>			 
+						<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add</a>	<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill green full trans-3" ><i class="icon-send"></i> Publish</a>			 
 
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 							<tbody>
 								<?php for($a=0;$a<=12;$a++): ?>
 									<tr class="wrap-tr">
-										<td class="icon"><i class="icon-direct-mail"></i></td>
+										<td class="icon"><i class="icon-bundles-summary"></i></td>
 										<td class="title"><h4><?php echo $a ?> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, veritatis!</h4></td>
 										<td class="createdby">John Smith</td>
 										<td class="date-created"><time datetime="2011-01-12">January 12th, 2011</time></td>

@@ -4,9 +4,17 @@
 
         var cls = 'active',
         _body = $('body'),
-        _clsMenu = 'menu-collapse';
+        _clsMenu = 'menu-collapse',
+        tableFilter = $('.table-filter');
 
+        if (tableFilter.length > 0) {
+          
+            tableFilter.DataTable({
+                 "pagingType": "full_numbers",
+               
+            });
 
+        }
         /** Editor **/
         tinymce.init({
 

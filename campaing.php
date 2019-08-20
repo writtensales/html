@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+ 
 <!-- section -->
 <section class="versions wrap-content">
 
@@ -31,8 +31,8 @@
 
 					</div>
 					<div class="col-md-5 d-flex align-items-center justify-content-end top-links">
-						<a href="#" class="radius-3 btn-fill trans-3" ><i class="icon-search"></i> Show Research</a>
-						<div class="radius-3 btn-fill trans-3" >Versions: &nbsp;<strong>25</strong></div>
+						<a href="#" class="radius-3 btn-fill blue trans-3" ><i class="icon-search"></i> Show Research</a>
+						<div class="radius-3 btn-outline trans-3" >Versions: &nbsp;<strong>25</strong></div>
 						<a href="#" class="radius-3 violet full btn-fill trans-3" ><i class="icon-duplicate"></i> Grab Original</a>
 						<?php include('partials/filter.php') ?>
 					</div>
@@ -67,4 +67,4 @@
 <!-- end section -->
 </div>
 
-<?php include('footer.php') ?>
+ 
