@@ -28,9 +28,11 @@
 			<nav id="sidebar" class="sidebar-wrapper">
 				<ul>
 					<li><a href="index.php?tpl=campaing" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns</span></a></li>
+					<li><a href="index.php?tpl=name-of-your-campaign" class="trans-3"><i class="icon-instagram"></i> <span>Name of your campaign</span></a></li>
+					
 					<li class="sidebar-dropdown">
 						<a href="index.php?tpl=lastest-users">
-							<i class="icon-instagram"></i>
+							<i class="icon-user2"></i>
 							<span>Users</span> &nbsp;
 							<span class="badge badge-pill badge-warning">New</span>
 						</a>
@@ -38,7 +40,7 @@
 							<ul>
 								<li>
 									<a href="#" class="trans-3">
-										Dashboard 1
+										
 									</a>
 								</li>
 								<li>
@@ -50,11 +52,13 @@
 							</ul>
 						</div>
 					</li>
+					<li><a href="index.php?tpl=user" class="trans-3"><i class="icon-instagram"></i> <span>User Profile</span></a></li>
 					<li><a href="index.php?tpl=create-campaign" class="trans-3"><i class="icon-instagram"></i> <span>Create a project</span></a></li>
-					<li><a href="index.php?tpl=lastest-bundles" class="trans-3"><i class="icon-instagram"></i> <span>Lastest Bundles</span></a></li>
+					<li><a href="index.php?tpl=lastest-bundles" class="trans-3"><i class="icon-submissions"></i> <span>Lastest Bundles</span></a></li>
 					<li><a href="index.php?tpl=create-bundle" class="trans-3"><i class="icon-instagram"></i> <span>Create Bundle</span></a></li>
 					<li><a href="index.php?tpl=version" class="trans-3"><i class="icon-instagram"></i> <span>Version</span></a></li>
 					<li><a href="index.php?tpl=copy-templates" class="trans-3"><i class="icon-instagram"></i> <span>Copy Templates</span></a></li>
+					<li><a href="index.php?tpl=menu" class="trans-3 active"><i class="icon-menu-sidebar"></i> <span>Menu</span></a></li>
 
 					<li><a href="#" class="trans-3 collapse-menu"><i class="icon-circle-right"></i> <span>Hide menu</span></a></li>
 					
@@ -75,7 +79,7 @@
 										Create Project
 									</a>	
 									<button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										<span class="sr-only">Toggle	 Dropdown</span>
+										<span class="sr-only">Toggle Dropdown</span>
 									</button>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="#">Sales Letter</a>
@@ -89,7 +93,7 @@
 
 							</div>
 						</div>
-						<div class="col d-flex justify-content-end">
+						<div class="col d-flex align-items-center justify-content-end">
 							
 
 							<!-- end create project -->

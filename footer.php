@@ -26,6 +26,25 @@
   </div>
 </div>
 
+
+<!-- Modal Confirm Delete -->
+<div class="modal fade deleteModalBundle" id="deleteModalBundle" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="warning-message text-center">
+           <h2 class="title">You can not remove this category <br>because has Bundles assigned</h2> 
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script src="js/popper.min.js" type="text/javascript"></script>

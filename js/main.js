@@ -3,15 +3,18 @@
     $(function() {
 
         var cls = 'active',
-        _body = $('body'),
-        _clsMenu = 'menu-collapse',
-        tableFilter = $('.table-filter');
+            _body = $('body'),
+            _cls = 'active',
+            _clsMenu = 'menu-collapse',
+            tableFilter = $('.table-filter'),
+            creacionCampaign = $('.wrap-creation-campaign'),
+            creacionCampaingsSlide = '';
+
 
         if (tableFilter.length > 0) {
-          
+
             tableFilter.DataTable({
-                 "pagingType": "full_numbers",
-               
+                "pagingType": "full_numbers",
             });
 
         }
@@ -29,10 +32,10 @@
             browser_spellcheck: true,
             a_plugin_option: true,
             a_configuration_option: 400,
-            init_instance_callback: function (editor) {
-                editor.on('click', function (e) {
-                  console.log(tinyMCE.activeEditor.selection.getContent());
-              });
+            init_instance_callback: function(editor) {
+                editor.on('click', function(e) {
+                    console.log(tinyMCE.activeEditor.selection.getContent());
+                });
             }
         });
 
@@ -50,6 +53,8 @@
                 return false;
             }
             _body.addClass(_clsMenu);
+ 
+          
             return false;
         })
 
@@ -73,13 +78,14 @@
 
 
         /* Projects Template */
-        var creacionCampaign = $('.wrap-creation-campaign');
-
+      
         if (creacionCampaign.length > 0) {
-            var creacionCampaingsSlide = new Swiper('.wrap-creation-campaign .swiper-container', {
+            creacionCampaingsSlide = new Swiper('.wrap-creation-campaign .swiper-container', {
                 speed: 400,
                 spaceBetween: 40,
                 slidesPerView: 1,
+                observer: true, 
+                observeParents: true,
                 keyboard: {
                     enabled: true,
                     onlyInViewport: false,
@@ -111,29 +117,25 @@
 
         $(".sidebar-dropdown > a").click(function() {
             $(".sidebar-submenu").slideUp(200);
-            if (
-                $(this)
-                .parent()
-                .hasClass("active")
-                ) {
-                $(".sidebar-dropdown").removeClass("active");
-            $(this)
-            .parent()
-            .removeClass("active");
-        } else {
-            $(".sidebar-dropdown").removeClass("active");
-            $(this)
-            .next(".sidebar-submenu")
-            .slideDown(200);
-            $(this)
-            .parent()
-            .addClass("active");
-        }
-    });
+
+            if ($(this).parent().hasClass(_cls) ) {
+                $(".sidebar-dropdown").removeClass(_cls);
+                $(this).parent().removeClass(_cls);
+            
+            } else {
+
+                $(".sidebar-dropdown").removeClass(_cls);
+                $(this).next(".sidebar-submenu").slideDown(200);
+                $(this).parent().addClass("active");
+
+            }
+
+        });
 
         $("#close-sidebar").click(function() {
             $(".page-wrapper").removeClass("toggled");
         });
+
         $("#show-sidebar").click(function() {
             $(".page-wrapper").addClass("toggled");
         });

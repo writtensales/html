@@ -40,22 +40,23 @@ $status = array(
 								<th>Email</th>
 								<th># Bundles</th>
 								<th>Status</th>
-								<th>Edit</th>
-								<th>Delete</th>
+								<th>Edit</th> 
 							</thead>
 							<tbody>
-								<?php for($a=0;$a<=12;$a++): ?>
-									<tr class="wrap-tr">
-										<td class="icon"><i class="icon-user"></i></td>
-										<td class="title"><h4><?php echo $a ?> John Smith</h4></td>
-										<td class="createdby">John Smith</td>
-										<td class="date-created"><time datetime="2011-01-12">January 12th, 2011</time></td>
+								<?php 
+								$cls = array('status-active','status-blocked','status-inactive');
+								for($a=0;$a<=12;$a++): 
+									shuffle($cls);
+									?>
+									<tr class="wrap-tr" >
+										<td class="icon"><i class="icon-user2 circle-icon"></i></td>
+										<td class="title"><h4>John Smith</h4></td>
+										<td class="email"><a href="mailto:name@mail.com"  class="trans-3"  >name@mail.com</a></td>
+										<td class="bundle-number">Bundles (30)</td>
+										<td class="status"><time datetime="2011-01-12"><div class="<?php echo $cls[0] ?>">Active</div></time></td>
 										<td class="action-edit">
 											<a href="#" class="btn-outline fill radius-3"><i class="icon-edit"></i>	Edit</a>
-										</td>
-										<td class="action-delete">
-											<a href="#" data-toggle="modal" data-target="#deleteModal" ><i class="icon-trash"></i></a>
-										</td>
+										</td> 
 									</tr>
 									
 								<?php endfor; ?>

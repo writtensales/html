@@ -8,7 +8,7 @@
 		
 				<div class="wrap-create"> 
 					<h1 class="h1">Create a Bundle</h1>
-					<form action="name-of-your-compaign.php"> 
+					<form action="?tpl=name-of-your-compaign"> 
 						<div class="form-group"> 
 							<input type="text"  class="form-control radius-3" placeholder="Bundle Name"  required>
 						</div>

@@ -49,7 +49,7 @@
 					<!-- Slides -->
 					<?php 
 					for($i=1;$i<=30;$i++): ?>
-						<div class="col-md-4 col-lg-2">
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
 							<?php include('partials/card-project-two.php'); ?>
 						</div>
 
