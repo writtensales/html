@@ -9,13 +9,12 @@
 		<header class="heading-second sticky-top">
 			<div class="container-fluid">
 				<div class="row d-flex align-items-center">
-					<div class="col-md-4 d-flex align-items-center">
+					<div class="col-title col-md-4 d-flex align-items-center">
 						<h2 class="h1">
 							Name of your campaing  
 						</h2>
-
 					</div>
-					<div class="col">
+					<div class="col-video col">
 
 						<!-- Video Collapse -->
 						<a href="https://www.youtube.com/watch?v=m0ieF9Nnl20" data-lity class="btn-video radius-3 trans-3">
@@ -25,7 +24,7 @@
 						<!-- end Video Collapse -->
 
 					</div>
-					<div class="col-md-4 d-flex align-items-center justify-content-end top-links">
+					<div class="col-actions col-md-4 d-flex align-items-center justify-content-end top-links">
 						<div class="radius-3 btn-fill trans-3 no-action" >Selected: &nbsp;<strong>25</strong></div>
 						<a href="#" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add</a>						
 						<a href="#" class="radius-3 green full btn-fill trans-3" >Finalize</a>
@@ -50,32 +49,7 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-6">
-										<div class="guide-content">
-											<?php for($d = 1; $d < 5 ; $d++): ?>
-												<aside class="guide-wrap radius-3">
-													<form action="#">
-														<div class="form-group">
-															<label for="guide1">Guide</label>
-															<textarea  class="form-control radius-3" rows="3" id="guide1" placeholder="Answer to Inquiry"></textarea>
-														</div>
-														<div class="form-group">
-															<label for="research1">Research</label>
-															<select  class="form-control radius-3" id="research1" >
-																<option value="">Select (optional, but highly recommended)</option>
-																<option>Opcion 1</option> 
-																<option>Opcion 1</option> 
-																<option>Opcion 1</option> 
-																<option>Opcion 1</option> 
-															</select>
-														</div>
-
-													</form>
-												</aside>
-												<!-- end guide --> 
-											<?php endfor; ?>
-
-										</div>
-
+										<?php include('partials/guides.php') ?>
 									</div>
 									<div class="col-md-6">
 										<div class="wrap-tpl radius-3">

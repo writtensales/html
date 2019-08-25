@@ -669,11 +669,21 @@ body {
 .btn-fill.violet.full {
     opacity: 1;
 }
-
+ 
 .btn-fill.violet.full:hover {
     background: #863ee3;
 }
 
+.btn-fill.white {
+    background: #ffffff !important;
+    opacity: .5;
+    color: #000 !important;
+    font-weight: bold;
+}
+.btn-fill.white:hover { 
+    opacity: 1;  
+    border:1px solid #ced4da;
+}
 .btn-fill.green {
     opacity: 1;
     background: #4ebd88;
@@ -1363,7 +1373,64 @@ section {
 
 .guide-wrap textarea.form-control, .guide-wrap select {
     border-color: #aa96c7;
-    color: #582e8e;
+    color: #000000;
+    background: none;
+}
+
+/* Category Modal */
+.createCategoryModal a{
+    font-size:1.6rem;
+    padding:.95rem 3rem; 
+}
+.createCategoryModal  .current-icon{
+    font-family: FontAwesome !important;
+}
+.createCategoryModal .form-control{
+ border-radius:0;
+}
+.createCategoryModal .select-icon {width:100%;text-align: center;display: block;}
+/** Icons Modal **/
+ 
+.iconsModal .grid-icons{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+}
+.iconsModal .grid-icons a{
+    flex: 0 0 11.1%;
+    height: 6rem;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 2rem;
+    color: gray;
+    background:#f9f9f9;
+    text-decoration: none;
+}
+ 
+.iconsModal .grid-icons a i{
+    font-family:Fontawesome
+}
+.iconsModal .grid-icons a:hover,
+.iconsModal .grid-icons a.active{
+  color: #582e8e;
+    background:#f4eafe;
+}
+/** Research Modal **/
+.researchModal .modal-body {
+    padding: 0;
+}
+
+.researchModal .guide-wrap {
+    padding: 1 2remrem;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.researchModal .guide-wrap:hover {
+    background: #f6f6f6;
 }
 
 /** Editor Wrap **/
@@ -1716,6 +1783,20 @@ div.dataTables_wrapper div.dataTables_length select {
     padding: 1rem 6rem;
 }
 
+/* Bg #Violet **/
+.bg-violet .modal-content{
+
+    background:#f0edf4;
+}
+
+.modal-one .modal-content{
+    padding:2rem;
+    font-size:1.6rem;
+}
+.modal-one .modal-header{
+    display:none;
+}
+
 /* Footer */
 footer {
     height: 5vh;
@@ -1742,4 +1823,24 @@ footer a:hover {
 
 footer a:hover:before {
     background: #fff;
+}
+
+/** Media Queries **/
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+    .heading-second {
+        padding-top:0;
+    }
+
+    .heading-second .col-video {
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 575.98px) {
 }

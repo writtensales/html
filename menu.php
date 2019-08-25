@@ -28,7 +28,7 @@
 					</div> -->
 					<div class="col-md-6 d-flex align-items-center justify-content-end top-links">
 
-						<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Create Category</a>			 
+						<a href="index.php?tpl=create-bundle" data-toggle="modal" data-target="#createCategoryModal" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Create Category</a>			 
 						<a href="index.php?tpl=create-bundle" class="radius-3 btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add Bundle</a>			 
 						<a href="index.php?tpl=create-bundle" data-toggle="modal" data-target="#deleteModalBundle" title="Remove" class="radius-3 btn-fill red full trans-3" ><i class="icon-remove-button"></i> Remove</a>			 
  

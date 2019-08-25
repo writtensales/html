@@ -11,6 +11,18 @@
             creacionCampaingsSlide = '';
 
 
+
+            /** Select a icon for categories **/
+            $('.iconsModal .grid-icons a').on('click', function(){
+                $('.createCategoryModal [name="icon"]').val($(this).attr('href'));
+                $('.createCategoryModal .current-icon').html('&#x'+$(this).attr('href').replace('#',''));
+
+                
+                $(this).closest('.iconsModal').modal('hide');
+                return false;
+            })
+
+
         if (tableFilter.length > 0) {
 
             tableFilter.DataTable({
@@ -65,13 +77,27 @@
             var campaingsSlide = new Swiper('.campaings .swiper-container', {
                 speed: 400,
                 spaceBetween: 40,
-                slidesPerView: 7,
-
+                slidesPerView: 7,                
+                observer: true, 
+                observeParents: true,
                 navigation: {
                     nextEl: '.campaings .swiper-button-next',
                     prevEl: '.campaings .swiper-button-prev',
                 },
-
+                 breakpoints: {
+                1440: {
+                  slidesPerView: 6, 
+                },
+                1140: {
+                  slidesPerView: 5, 
+                }, 
+                960: {
+                  slidesPerView: 4, 
+                }, 
+                720: {
+                  slidesPerView: 3, 
+                }
+              }
             });
 
         }

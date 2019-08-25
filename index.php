@@ -1,5 +1,5 @@
 <?php 
-
+include('fontawesome.php');
 include('header.php');
 $tpl = (!empty($_GET['tpl'])) ? $_GET['tpl'] : 'dashboard';
  ?>
