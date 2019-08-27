@@ -8,19 +8,45 @@
             _clsMenu = 'menu-collapse',
             tableFilter = $('.table-filter'),
             creacionCampaign = $('.wrap-creation-campaign'),
+            Campaings = $('.campaings'),
+            searchAnimated = $('.search-animated'),
             creacionCampaingsSlide = '';
 
 
-
-            /** Select a icon for categories **/
-            $('.iconsModal .grid-icons a').on('click', function(){
-                $('.createCategoryModal [name="icon"]').val($(this).attr('href'));
-                $('.createCategoryModal .current-icon').html('&#x'+$(this).attr('href').replace('#',''));
-
-                
-                $(this).closest('.iconsModal').modal('hide');
+        /** Add or remove a class**/
+        function addOrRemoveClass(elem, cls) {
+            if (elem.hasClass(cls)) {
+                elem.removeClass(cls);
                 return false;
-            })
+            }
+            elem.addClass(cls);
+        }
+
+        /** Search animated */
+        $('.search-animated  .search-btn').on('click', function() {
+            addOrRemoveClass(searchAnimated, _cls);
+
+        });
+
+        $('.search-animated .search-field').on('blur', function() {
+
+        });
+
+        /** Appy menu collapse */
+
+        if ($(window).width() <= 1280) {
+            _body.addClass(_clsMenu);
+        }
+
+        /** Select a icon for categories **/
+        $('.iconsModal .grid-icons a').on('click', function() {
+            $('.createCategoryModal [name="icon"]').val($(this).attr('href'));
+            $('.createCategoryModal .current-icon').html('&#x' + $(this).attr('href').replace('#', ''));
+
+
+            $(this).closest('.iconsModal').modal('hide');
+            return false;
+        })
 
 
         if (tableFilter.length > 0) {
@@ -60,58 +86,55 @@
 
         /** Menu Collapse **/
         $('.sidebar-menu nav ul li a.collapse-menu').on('click', function() {
-            if (_body.hasClass(_clsMenu)) {
-                _body.removeClass(_clsMenu);
-                return false;
-            }
-            _body.addClass(_clsMenu);
- 
-          
+
+            addOrRemoveClass(_body, _clsMenu);
+
             return false;
         })
 
         /* Campaings */
-        var Campaings = $('.campaings');
 
         if (Campaings.length > 0) {
             var campaingsSlide = new Swiper('.campaings .swiper-container', {
                 speed: 400,
-                spaceBetween: 40,
-                slidesPerView: 7,                
-                observer: true, 
+                spaceBetween: 20,
+                slidesPerView: 6,
+                observer: true,
                 observeParents: true,
                 navigation: {
                     nextEl: '.campaings .swiper-button-next',
                     prevEl: '.campaings .swiper-button-prev',
                 },
-                 breakpoints: {
-                1440: {
-                  slidesPerView: 6, 
-                },
-                1140: {
-                  slidesPerView: 5, 
-                }, 
-                960: {
-                  slidesPerView: 4, 
-                }, 
-                720: {
-                  slidesPerView: 3, 
+                breakpoints: {
+                    1440: {
+                        slidesPerView: 4,
+                    },
+                    1140: {
+                        slidesPerView: 3,
+                    },
+                    960: {
+                        slidesPerView: 3,
+                    },
+                    720: {
+                        slidesPerView: 3,
+                    }
                 }
-              }
             });
 
         }
 
 
         /* Projects Template */
-      
+
         if (creacionCampaign.length > 0) {
             creacionCampaingsSlide = new Swiper('.wrap-creation-campaign .swiper-container', {
                 speed: 400,
                 spaceBetween: 40,
                 slidesPerView: 1,
-                observer: true, 
+                observer: true,
                 observeParents: true,
+                grabCursor: false,
+                sliderDrag: false,
                 keyboard: {
                     enabled: true,
                     onlyInViewport: false,
@@ -144,10 +167,10 @@
         $(".sidebar-dropdown > a").click(function() {
             $(".sidebar-submenu").slideUp(200);
 
-            if ($(this).parent().hasClass(_cls) ) {
+            if ($(this).parent().hasClass(_cls)) {
                 $(".sidebar-dropdown").removeClass(_cls);
                 $(this).parent().removeClass(_cls);
-            
+
             } else {
 
                 $(".sidebar-dropdown").removeClass(_cls);

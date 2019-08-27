@@ -57,8 +57,15 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<aside class="dash-video">
-					<h2>Lorem ipsum dolor sit amet,<strong> consectetur adipisicing</strong> elit. Reiciendis, assumenda.</h2>
-					<iframe src="https://player.vimeo.com/video/259411563" width="100%" height="300" frameborder="0" title="Aqui un buen titulo" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	
+					<h2>Lorem ipsum dolor sit amet,<strong> consectetur adipisicing</strong> <br>elit. Reiciendis, assumenda.</h2>
+					<aside class="video-wrap">
+						<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://player.vimeo.com/video/259411563" class="embed-responsive-item"   frameborder="0" title="Aqui un buen titulo" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	
+					</div>
+					</aside>	
+
+					<!-- end video -->
+
 				</aside>
 			</div>
 		</div>
@@ -98,25 +105,29 @@
 
 						<!-- Slider main container -->
 						<div class="swiper-container"> 
-							<div class="swiper-wrapper">
-								<!-- Slides -->
+							<div class="swiper-wrapper">								
+
 								<?php 
 								for($a=1;$a<=20;$a++): 
-									include('partials/card-project.php');
-								endfor; ?>
-
+									?>
+									<div class="swiper-slide">
+										<?php include('partials/card-project.php');?>
+									</div>
+								<?php  endfor; ?>
 							</div>
-
 						</div>
-						<div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div>
-						<!-- end swiper -->
 					</div>
+
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+
+					<!-- end swiper -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end Campaings -->
+</div>
+<!-- end Campaings -->
 
 </section>
 <!-- end Dashboard -->

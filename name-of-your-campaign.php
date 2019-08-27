@@ -16,12 +16,6 @@
 					</div>
 					<div class="col-video col">
 
-						<!-- Video Collapse -->
-						<a href="https://www.youtube.com/watch?v=m0ieF9Nnl20" data-lity class="btn-video radius-3 trans-3">
-							<span class="title">Watch the tutorial</span>
-							<i class="icon-play"></i>
-						</a>
-						<!-- end Video Collapse -->
 
 					</div>
 					<div class="col-actions col-md-4 d-flex align-items-center justify-content-end top-links">
@@ -49,6 +43,14 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-6">
+
+										<!-- Video Collapse -->
+										<a href="https://www.youtube.com/watch?v=m0ieF9Nnl20" data-lity class="btn-video radius-3 trans-3">
+											<span class="title">Watch the tutorial</span>
+											<i class="icon-play"></i>
+										</a>
+										<!-- end Video Collapse -->
+										<br>
 										<?php include('partials/guides.php') ?>
 									</div>
 									<div class="col-md-6">
@@ -98,8 +100,8 @@
 				</div> 
 
 				<!-- If we need navigation buttons -->
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"><i class="icon-left-arrow"></i></div>
+				<div class="swiper-button-next"><i class="icon-right-arrow"></i></div>
 
 			</div>
 
@@ -112,4 +114,3 @@
 </section>
 <!-- end section -->
 </div>
- 

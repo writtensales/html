@@ -11,13 +11,8 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-title col-md-12 order-md-1  order-lg-1 col-lg-3   d-flex align-items-center">
 						<h2 class="h1">
-							Name of campaing  
-						</h2>
-						<div class="heading-actions">
-							<a href="#" title="Edit" data-toggle="tooltip" data-placement="bottom" class="trans-3"><i class="icon-edit"></i></a>
-							<a href="#" title="Remove" data-toggle="modal" data-target="#deleteModal"  class="trans-3"><i class="icon-trash" data-toggle="tooltip" data-placement="bottom"></i></a>
-
-						</div>
+							My Campaings <strong>(30)</strong> 
+						</h2> 
 
 					</div>
 					<div class="col-video  col order-md-3 order-md-2 order-lg-2">
@@ -49,7 +44,7 @@
 						<?php 
 						for($i=1;$i<=30;$i++): ?>
 							
-							<?php include('partials/card-project-two.php'); ?>
+							<?php include('partials/card-project.php'); ?>
 							
 
 						<?php endfor; ?>

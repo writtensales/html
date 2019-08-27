@@ -1,6 +1,5 @@
 
-<!-- Card project -->
-	<div class="swiper-slide">
+<!-- Card project --> 
 		<aside class="card-doc-two radius-3 trans-3">
 			<div class="top-actions">
 				<span class="featured trans-3" data-toggle="tooltip" data-placement="bottom" title="Feature"><i class="icon-star-empty"></i></span>
@@ -10,6 +9,5 @@
 			<h6 class="title trans-3">Version #<?php echo $i?>.</h6> 
  
 	 
-		</aside>
-	</div>
+		</aside> 
 <!-- end Card prpject -->
