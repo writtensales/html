@@ -1720,6 +1720,9 @@ footer a:hover:before {
 }
 
 @media (max-width: 575.98px) {
+    .wrap-tpl{
+        padding:3rem;
+    }
     .card-doc-two {
         margin:2rem auto;
     }
