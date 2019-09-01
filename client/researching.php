@@ -12,11 +12,11 @@
 
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-4">
 						<header class="heading-second sticky-top pr-5">  
 						 
 										<h2 class="h1">
-											<i class="icon-edit mr-3"></i>	Researching
+											<i class="icon-researching mr-3"></i>	Researching
 										</h2>
 								 
 										<div class="heading-actions d-flex   mt-4">
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 ">						
+					<div class="col-md-4 ">						
 						<?php include('../partials/researching.php') ?>
 					</div>
 					<div class="col-md-6 bg-light p-5">

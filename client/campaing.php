@@ -11,10 +11,10 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-title col-md-12 order-md-1  order-lg-1 col-lg-3   d-flex align-items-center">
 						<h2 class="h1">
-							Name of campaing  
+							Name of version
 						</h2>
 						<div class="heading-actions ml-3">
-							<a href="#" title="Edit" data-toggle="tooltip" data-placement="bottom" class="trans-3"><i class="icon-edit"></i></a>
+							<a href="#" title="Edit" data-toggle="tooltip" data-placement="bottom" class="trans-3 mr-2"><i class="icon-edit"></i></a>
 							<a href="#" title="Remove" data-toggle="modal" data-target="#deleteModal"  class="trans-3"><i class="icon-trash" data-toggle="tooltip" data-placement="bottom"></i></a>
 
 						</div>

@@ -8,8 +8,10 @@
 			</div>
 			<nav id="sidebar" class="sidebar-wrapper">
 				<ul class="menu-wrap">
-					<li><a href="index.php?tpl=campaing" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns</span></a></li>
-					<li><a href="index.php?tpl=campaing" class="trans-3"><i class="icon-instagram"></i> <span>My Campaigns</span></a></li>
+					<li><a href="index.php?tpl=campaing" class="trans-3"><i class="icon-instagram"></i> <span>Campaigns in Version</span></a></li>
+					<li><a href="index.php?tpl=my-campaings" class="trans-3"><i class="icon-instagram"></i> <span>My Campaigns</span></a></li>
+					<li><a href="index.php?tpl=single-campaing" class="trans-3"><i class="icon-instagram"></i> <span>Single Campaign</span></a></li>
+
 					<li><a href="index.php?tpl=name-of-your-campaign" class="trans-3"><i class="icon-instagram"></i> <span>Name of your campaign</span></a></li>
 					
 				 

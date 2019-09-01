@@ -95,6 +95,24 @@
 
 <!-- end modal category -->
 
+<div class="modal fade  researchModal2" id="researchModal2" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header rounded text-center  "> 
+        <div class="wrap-label d-flex justify-content-center align-items-center"><i class="icon-researching mr-4"></i> Research</div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+
+        <?php include('../partials/researching.php') ?>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal research -->
 
 <div class="modal fade researchModal" id="researchModal" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true">
   <div class="modal-dialog " role="document">

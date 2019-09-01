@@ -11,7 +11,7 @@
     color: #582e8e;
 }
 
-.h2 .number {
+.h2 .number, .h1 .number {
     color: #4ec2d4;
     font-weight: 600;
     display: inline-block;
@@ -129,7 +129,7 @@
     padding: 0 2rem;
     outline: none !important;
     box-shadow: none !important;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .form-control:focus {
@@ -872,6 +872,7 @@ section {
 .card-doc-one:hover {
     border-color: transparent;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.15) !important;
+    background: #fff;
 }
 
 .card-doc-one h6 {
@@ -1115,19 +1116,29 @@ span.delete:hover {
 
 .guide-wrap {
     padding: 3rem;
-    border: 2px solid #aa96c7;
+    border: 1px solid #aa96c7;
     margin-bottom: 3rem;
 }
 
 .guide-wrap label {
     font-size: 1.7rem;
+    font-weight: bold;
+}
+.guide-wrap .delete{
+    opacity:.3;
+    cursor:pointer;
+}
+.guide-wrap .delete:hover{
+    opacity:.8;
 }
 
 .guide-wrap textarea.form-control {
     padding: 1rem 2rem;
 }
 
-.guide-wrap textarea.form-control, .guide-wrap select {
+.guide-wrap textarea.form-control, 
+.guide-wrap select,
+.guide-wrap  .form-control {
     border-color: #aa96c7;
     color: #000000;
     background: none;
@@ -1183,6 +1194,18 @@ span.delete:hover {
 }
 
 /** Research Modal **/
+.researchModal2 .modal-header{
+    background:#c5ecf1;
+    padding: 1rem 2rem;
+}
+.researchModal2 .modal-header .close{
+    top: 1rem;
+    position: relative;
+}
+.researchModal2 .modal-header .wrap-label{
+  
+    width:100%;
+}
 .researchModal .modal-body {
     padding: 0;
 }
@@ -1643,7 +1666,9 @@ footer a:hover:before {
     :root {
         font-size:8px
     }
-
+.wrap-tpl .info{
+    font-size:1.8rem;
+}
     .form-control {
         height: 3rem;
     }
