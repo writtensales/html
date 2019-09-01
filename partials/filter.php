@@ -1,6 +1,6 @@
 				<!-- filter -->
        <div class="wrap-filter">
-        <button class="btn   dropdown-toggle btn-filter trans-3 radius-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn   dropdown-toggle btn-filter trans-3 rounded" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="icon-filter1"></i>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

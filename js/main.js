@@ -20,6 +20,7 @@
                 return false;
             }
             elem.addClass(cls);
+            return true;
         }
 
         /** Search animated */
@@ -45,6 +46,19 @@
 
 
             $(this).closest('.iconsModal').modal('hide');
+            return false;
+        })
+
+
+        /** Wrap video **/
+          $(' .wrap-video-dropdown .btn-video').on('click', function(){
+            var elem = $(this).closest('.wrap-video-dropdown');
+          addOrRemoveClass(elem, _cls); 
+        })
+
+       
+        $('.btn-modal-cancel').on('click', function(){
+            $(this).closest('.modal').modal('hide');
             return false;
         })
 

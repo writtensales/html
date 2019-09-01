@@ -15,13 +15,11 @@
 <div class="modal fade deleteModal" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true">
   <div class="modal-dialog " role="document">
     <div class="modal-content">
-      <div class="modal-header"> 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-      </div>
-      <div class="modal-body"> <h2 class="title">Do you want to delete this?</h2> </div>
+   
+      <div class="modal-body"><br><h2 class="title">Do you want to delete this?</h2> </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-fill violet radius-3 trans-3" data-dismiss="modal">Cancel</button>
-        <a href="#delete" id="delete" class="btn btn-fill red radius-3 trans-3">Delete</a> </div>
+        <button type="button" class="btn btn-fill violet rounded trans-3" data-dismiss="modal">Cancel</button>
+        <a href="#delete" id="delete" class="btn btn-fill red rounded trans-3">Delete</a> </div>
       </div>
     </div>
   </div>
@@ -63,14 +61,14 @@
           <div class="row">
            <div class="col-md-12">
              <div class="form-group">
-              <input type="text" name="name"  class="form-control" />
+              <input type="text" name="name"  class="form-control rounded" />
               <input type="hidden" name="icon"   class="form-control" />
 
             </div>
            </div>
            <div class="col-md-12"> 
              <div class="form-group"> 
-              <a href="#" data-toggle="modal" data-target="#iconsModal"  class="btn btn-fill select-icon white radius-3 trans-3">
+              <a href="#" data-toggle="modal" data-target="#iconsModal"  class="btn btn-fill select-icon white rounded trans-3">
                 <i class="current-icon">&#xf150</i> Select Icon</a>
             </div>
            </div> 
@@ -81,8 +79,8 @@
 
           </div>
           <div class="col-md-12 d-flex justify-content-center mt-4">
-           <a href="#" class="btn btn-md readius-3 btn-fill violet trans-3 mr-md-3">Cancel</a>   
-           <a href="#" class="btn btn-md readius-3 btn-fill green trans-3">Create</a>  
+           <a href="#" class="btn btn-md readius-3 btn-fill btn-modal-cancel violet rounded trans-3 mr-md-3">Cancel</a>   
+           <a href="#" class="btn btn-md readius-3 btn-fill green rounded trans-3">Create</a>  
          </div>
 
        </div>
@@ -106,7 +104,7 @@
       </div>
       <div class="modal-body">
 
-        <?php include('partials/guides.php') ?>
+        <?php include('../partials/guides.php') ?>
       </div>
 
     </div>
@@ -145,15 +143,15 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <script src="js/popper.min.js" type="text/javascript"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script  src="js/swiper.min.js"></script>  
-  <script src="js/lity.js" type="text/javascript"></script>
+  <script src="../js/popper.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script  src="../js/swiper.min.js"></script>  
+  <script src="../js/lity.js" type="text/javascript"></script>
   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
   <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
   <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap4.min.js"></script>
-  <script   src="js/main.js"></script> 
+  <script   src="../js/main.js"></script> 
 
 </body>
 </html>

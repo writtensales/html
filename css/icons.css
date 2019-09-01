@@ -1,0 +1,515 @@
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ 
+
+.icon-researching:before {
+  content: "\e90f";
+}
+.icon-id-card1:before {
+  content: "\e910";
+}
+.icon-user1:before {
+  content: "\e911";
+}
+.icon-control:before {
+  content: "\e912";
+}
+.icon-audit:before {
+  content: "\e913";
+}
+.icon-worldwide:before {
+  content: "\e914";
+}
+.icon-message1:before {
+  content: "\e915";
+}
+.icon-mail-advertising:before {
+  content: "\e916";
+}
+.icon-omni-channel1:before {
+  content: "\e917";
+}
+.icon-businessman1:before {
+  content: "\e918";
+}
+.icon-project1:before {
+  content: "\e919";
+}
+.icon-idea1:before {
+  content: "\e91a";
+}
+.icon-key1:before {
+  content: "\e91b";
+}
+.icon-dashboard:before {
+  content: "\e91c";
+}
+.icon-delivery:before {
+  content: "\e91d";
+}
+.icon-trust:before {
+  content: "\e91e";
+}
+.icon-star:before {
+  content: "\e91f";
+}
+.icon-trash:before {
+  content: "\e920";
+}
+.icon-team:before {
+  content: "\e921";
+}
+.icon-clock:before {
+  content: "\e922";
+}
+.icon-work-1:before {
+  content: "\e923";
+}
+.icon-lotus-flower:before {
+  content: "\e924";
+}
+.icon-skills:before {
+  content: "\e925";
+}
+.icon-balance-1:before {
+  content: "\e926";
+}
+.icon-plus1:before {
+  content: "\e927";
+}
+.icon-send:before {
+  content: "\e928";
+}
+.icon-bell:before {
+  content: "\e929";
+}
+.icon-calendar:before {
+  content: "\e92a";
+}
+.icon-view:before {
+  content: "\e92b";
+}
+.icon-arrow-right1:before {
+  content: "\e92c";
+}
+.icon-delete:before {
+  content: "\e92d";
+}
+.icon-checked1:before {
+  content: "\e92e";
+}
+.icon-warning:before {
+  content: "\e92f";
+}
+.icon-growth:before {
+  content: "\e930";
+}
+.icon-dashboard11:before {
+  content: "\e931";
+}
+.icon-list:before {
+  content: "\e932";
+}
+.icon-clip:before {
+  content: "\e933";
+}
+.icon-history:before {
+  content: "\e934";
+}
+.icon-adjustment:before {
+  content: "\e935";
+}
+.icon-sun:before {
+  content: "\e936";
+}
+.icon-user11:before {
+  content: "\e937";
+}
+.icon-menu:before {
+  content: "\e938";
+}
+.icon-business:before {
+  content: "\e939";
+}
+.icon-house:before {
+  content: "\e93a";
+}
+.icon-upsell-copy:before {
+  content: "\e93b";
+}
+.icon-added:before {
+  content: "\e93c";
+}
+.icon-play1:before {
+  content: "\e93d";
+}
+.icon-envelope:before {
+  content: "\e93e";
+}
+.icon-direct-mail:before {
+  content: "\e93f";
+}
+.icon-duplicate:before {
+  content: "\e940";
+}
+.icon-edit:before {
+  content: "\e941";
+}
+.icon-facebook-group:before {
+  content: "\e942";
+}
+.icon-filter:before {
+  content: "\e944";
+}
+.icon-landing-page:before {
+  content: "\e945";
+}
+.icon-left-arrow:before {
+  content: "\e946";
+}
+.icon-my-campaigns:before {
+  content: "\e948";
+}
+.icon-organic-social:before {
+  content: "\e949";
+}
+.icon-right-arrow:before {
+  content: "\e94a";
+}
+.icon-search:before {
+  content: "\e94b";
+}
+.icon-setting:before {
+  content: "\e94c";
+}
+.icon-share:before {
+  content: "\e94d";
+}
+.icon-sign-out:before {
+  content: "\e94e";
+}
+.icon-template-summary:before {
+  content: "\e94f";
+}
+.icon-mission:before {
+  content: "\e950";
+}
+.icon-user2:before {
+  content: "\e951";
+}
+.icon-add-button:before {
+  content: "\e952";
+}
+.icon-bundles-summary:before {
+  content: "\e953";
+}
+.icon-check-mark:before {
+  content: "\e954";
+}
+.icon-phone-hang-up1:before {
+  content: "\e955";
+}
+.icon-latest-bundles:before {
+  content: "\e956";
+}
+.icon-menu-latest-categories:before {
+  content: "\e957";
+}
+.icon-menu-sidebar:before {
+  content: "\e958";
+}
+.icon-location1:before {
+  content: "\e959";
+}
+.icon-publish:before {
+  content: "\e95a";
+}
+.icon-remove-button:before {
+  content: "\e95b";
+}
+.icon-save-button:before {
+  content: "\e95c";
+}
+.icon-search2:before {
+  content: "\e95d";
+}
+.icon-submissions:before {
+  content: "\e95e";
+}
+.icon-landing-page1:before {
+  content: "\e95f";
+}
+.icon-left-arrow1:before {
+  content: "\e960";
+}
+.icon-my-campaigns1:before {
+  content: "\e961";
+}
+.icon-organic-social1:before {
+  content: "\e962";
+}
+.icon-right-arrow1:before {
+  content: "\e963";
+}
+.icon-search3:before {
+  content: "\e964";
+}
+.icon-setting1:before {
+  content: "\e965";
+}
+.icon-share1:before {
+  content: "\e966";
+}
+.icon-sign-out1:before {
+  content: "\e967";
+}
+.icon-star1:before {
+  content: "\e96d";
+}
+.icon-trash1:before {
+  content: "\e96e";
+}
+.icon-upsell-copy1:before {
+  content: "\e96f";
+}
+.icon-added1:before {
+  content: "\e970";
+}
+.icon-shopping-cart:before {
+  content: "\e971";
+}
+.icon-B2B-Email-Marketing1:before {
+  content: "\e972";
+}
+.icon-direct-mail1:before {
+  content: "\e973";
+}
+.icon-duplicate1:before {
+  content: "\e974";
+}
+.icon-edit1:before {
+  content: "\e975";
+}
+.icon-facebook-group1:before {
+  content: "\e976";
+}
+.icon-filter1:before {
+  content: "\e977";
+}
+.icon-alarm1:before {
+  content: "\e979";
+}
+.icon-dumpling:before {
+  content: "\e97a";
+}
+.icon-salad:before {
+  content: "\e97b";
+}
+.icon-carrito:before {
+  content: "\e97c";
+}
+.icon-noodles:before {
+  content: "\e97d";
+}
+.icon-prawn:before {
+  content: "\e97e";
+}
+.icon-arrow-right:before {
+  content: "\e97f";
+}
+.icon-home31:before {
+  content: "\e980";
+}
+.icon-undo1:before {
+  content: "\e981";
+}
+.icon-redo1:before {
+  content: "\e982";
+}
+.icon-undo21:before {
+  content: "\e983";
+}
+.icon-redo21:before {
+  content: "\e984";
+}
+.icon-arrow-right3:before {
+  content: "\e985";
+}
+.icon-alarm:before {
+  content: "\e986";
+}
+.icon-arrow-left:before {
+  content: "\e987";
+}
+.icon-file-text21:before {
+  content: "\e988";
+}
+.icon-search1:before {
+  content: "\e989";
+}
+.icon-briefcase1:before {
+  content: "\e9af";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-star-empty1:before {
+  content: "\e9d8";
+}
+.icon-plus2:before {
+  content: "\ea0b";
+}
+.icon-play:before {
+  content: "\ea1c";
+}
+.icon-play2:before {
+  content: "\ea1d";
+}
+.icon-arrow-up-left2:before {
+  content: "\ea39";
+}
+.icon-arrow-up:before {
+  content: "\ea3b";
+}
+.icon-arrow-up-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-right2:before {
+  content: "\ea3d";
+}
+.icon-arrow-down-right2:before {
+  content: "\ea3e";
+}
+.icon-arrow-down-left2:before {
+  content: "\ea3f";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-id-card:before {
+  content: "\e900";
+}
+.icon-user:before {
+  content: "\e901";
+}
+.icon-control1:before {
+  content: "\e902";
+}
+.icon-audit1:before {
+  content: "\e903";
+}
+.icon-worldwide1:before {
+  content: "\e904";
+}
+.icon-message:before {
+  content: "\e905";
+}
+.icon-mail-advertising1:before {
+  content: "\e906";
+}
+.icon-omni-channel:before {
+  content: "\e907";
+}
+.icon-businessman:before {
+  content: "\e908";
+}
+.icon-project:before {
+  content: "\e909";
+}
+.icon-idea:before {
+  content: "\e90a";
+}
+.icon-key:before {
+  content: "\e90b";
+}
+.icon-dashboard1:before {
+  content: "\e90c";
+}
+.icon-delivery1:before {
+  content: "\e90d";
+}
+.icon-trust1:before {
+  content: "\e90e";
+}
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-home3:before {
+  content: "\e968";
+}
+.icon-file-text2:before {
+  content: "\e978";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-undo:before {
+  content: "\e969";
+}
+.icon-redo:before {
+  content: "\e96a";
+}
+.icon-undo2:before {
+  content: "\e96b";
+}
+.icon-redo2:before {
+  content: "\e96c";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-play3:before {
+  content: "\ea1e";
+}
