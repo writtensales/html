@@ -40,13 +40,11 @@
 							<label for="video_url">Tutorial Video URL</label>
 							<div class="form-group"><input type="text" id="video_url" placeholder="Paste URL Here..."  class="form-control"></div>
 						</form>
-						<div class="clearfix">
-							<a href="#" class="btn-add trans-3 float-right"><i class="icon-add"></i></a>
-						</div>
+						
 						<?php include('../partials/guides-edit.php') ?>
 					</div>
 					<div class="col-md-8">
-						<div class="row">
+						<div class="row d-flex align-items-end">
 							<div class="col-md-8">
 								<form action="#">
 									<label for="Title">Title</label>
@@ -54,7 +52,11 @@
 								</form>
 							</div>
 							<div class="col-md-4 d-flex justify-content-end">
-								
+					 
+							<div class="wrap-btn pb-3">
+								<a href="#" class="rounded btn-save trans-3 px-5  green btn-fill "><i class="icon-save-button"></i> Save</a>
+							</div>
+					 
 							</div>
 						</div>
 						<div class="wrap-editor">

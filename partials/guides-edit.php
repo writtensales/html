@@ -1,4 +1,7 @@
 <div class="guide-content p-5 bg-light rounded">
+	<div class="clearfix mb-3">
+		<a href="#" class="btn-add trans-3 float-right"><i class="icon-add-button"></i></a>
+	</div>
 	<?php for($d = 1; $d < 5 ; $d++): ?>
 		<aside class="guide-wrap rounded trans-3 p-4">
 			<form action="#">

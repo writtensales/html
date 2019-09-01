@@ -1,9 +1,9 @@
 <!-- Dashboard -->
 <section class="dashboard wrap-cotent">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<h2 class="h2">
+	<div class="container">
+		<div class="row my-4">
+			<div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+				<h2 class="h2 pt-4 pb-4">
 					Features <span class="number">(3)</span>
 				</h2>
 				<div class="features-slider">
@@ -50,7 +50,7 @@
 
 						</div>
 						<!-- If we need pagination -->
-						<div class="swiper-pagination"></div>
+						<div class="swiper-pagination py-5"></div>
 
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 
 	<!-- Campaings -->
 	<div class="campaings">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-2">
 					<h2 class="h2">
@@ -98,7 +98,7 @@
 			</div>
 		</div>
 		<div class="campaing-list">
-			<div class="container-fluid">
+			<div class="container">
 
 				<div class="row">
 					<div class="col-md-12">

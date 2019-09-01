@@ -11,12 +11,12 @@
 				<div class="row version-nav">
 					<div class="col-md-12 d-flex justify-content-between border-bottom pb-4 ">
 						<div class="wrap-prev">
-							<a href="#" class="prev text-violet">
-							<i class="icon-arrow-left"></i> Version #4
+							<a href="#" class="trans-3 prev text-violet">
+							<i class="icon-arrow-left mr-3"></i> Version #4
 						</a>
 						</div>
 						<div class="wrap-next">
-							<a href="#" class="next text-violet">Version #5 <i class="icon-arrow-right3"></i></a>
+							<a href="#" class="trans-3 next text-violet">Version #5 <i class="ml-3 icon-arrow-right3"></i></a>
 						</div>
 					</div>
 				</div>

@@ -18,17 +18,7 @@
 					 
 						</form>
 					</div>
-					<!-- <div class="col">
- 
-						<form action="">	
-							<div class="form-group form-search">
-								<i class="icon-search"></i>
-								<input type="search" placeholder="Search a campaing" name="" id="" class="form-control">
-							</div>			
-						</form>
 			 
-
-					</div> -->
 					<div class="col-md-4 d-flex align-items-center justify-content-end top-links">
 
 						<a href="index.php?tpl=create-bundle" class="rounded btn-fill violet full trans-3" ><i class="icon-add-button"></i> Add</a>	<a href="index.php?tpl=create-bundle" class="rounded btn-fill green full trans-3" ><i class="icon-send"></i> Publish</a>			 

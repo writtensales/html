@@ -26,13 +26,10 @@
         /** Search animated */
         $('.search-animated  .search-btn').on('click', function() {
             addOrRemoveClass(searchAnimated, _cls);
+            return false;
 
         });
-
-        $('.search-animated .search-field').on('blur', function() {
-
-        });
-
+ 
         /** Appy menu collapse */
 
         if ($(window).width() <= 1280) {
@@ -112,7 +109,7 @@
             var campaingsSlide = new Swiper('.campaings .swiper-container', {
                 speed: 400,
                 spaceBetween: 20,
-                slidesPerView: 6,
+                slidesPerView: 5,
                 observer: true,
                 observeParents: true,
                 navigation: {
