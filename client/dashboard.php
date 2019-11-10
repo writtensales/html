@@ -2,7 +2,7 @@
 <section class="dashboard wrap-cotent">
 	<div class="container">
 		<div class="row my-4">
-			<div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+			<div class="col-lg-6 col-md-6 col-sm-12 pt-2">
 				<h2 class="h2 pt-4 pb-4">
 					Features <span class="number">(3)</span>
 				</h2>
@@ -50,7 +50,7 @@
 
 						</div>
 						<!-- If we need pagination -->
-						<div class="swiper-pagination py-5"></div>
+						<div class="swiper-pagination py-4"></div>
 
 					</div>
 				</div>
@@ -118,8 +118,8 @@
 						</div>
 					</div>
 
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"><i class="icon-right-arrow"></i></div>
+					<div class="swiper-button-prev"><i class="icon-right-arrow"></i></div>
 
 					<!-- end swiper -->
 				</div>

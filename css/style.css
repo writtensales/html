@@ -214,14 +214,17 @@ body {
     background: #d8d2e0;
     max-height: 0rem;
     overflow: hidden;
+    position: absolute;
+    width: 100%;
 }
 
 .wrap-video-dropdown.active .video {
     max-height: 35rem;
 }
-.wrap-video-dropdown.solaped .video{
-    position:absolute;
-    width:100%;
+
+.wrap-video-dropdown.solaped .video {
+    position: absolute;
+    width: 100%;
 }
 
 .wrap-video-dropdown .video .embed-responsive {
@@ -809,9 +812,11 @@ section {
     display: block;
     color: gray;
 }
-.features-slider .swiper-pagination{
-    position:relative;
+
+.features-slider .swiper-pagination {
+    position: relative;
 }
+
 .dash-video {
     max-width: 55rem;
     margin: 0 auto;
@@ -933,16 +938,17 @@ section {
 .card-doc-two .top-actions .featured {
     font-size: 120%;
 }
-.card-doc-two.active .top-actions .featured{
-        opacity:1 ;
+
+.card-doc-two.active .top-actions .featured {
+    opacity: 1 ;
 }
+
 .card-doc-two .top-actions .featured i.full {
     display: none;
 }
 
 .card-doc-two.active .top-actions .featured i.full {
     display: inline-block;
-
 }
 
 .card-doc-two.active .top-actions .featured i.normal {
@@ -970,15 +976,16 @@ span.delete:hover {
 }
 
 /** Version **/
- 
 .versions .version-nav {
     font-size: 1.5rem;
 }
-.versions .version-nav a{
-    text-decoration:none;
+
+.versions .version-nav a {
+    text-decoration: none;
 }
-.versions .version-nav a:hover{
-    color:#4ac3d4;
+
+.versions .version-nav a:hover {
+    color: #4ac3d4;
 }
 
 /** Search animated **/
@@ -1124,21 +1131,21 @@ span.delete:hover {
     font-size: 1.7rem;
     font-weight: bold;
 }
-.guide-wrap .delete{
-    opacity:.3;
-    cursor:pointer;
+
+.guide-wrap .delete {
+    opacity: .3;
+    cursor: pointer;
 }
-.guide-wrap .delete:hover{
-    opacity:.8;
+
+.guide-wrap .delete:hover {
+    opacity: .8;
 }
 
 .guide-wrap textarea.form-control {
     padding: 1rem 2rem;
 }
 
-.guide-wrap textarea.form-control, 
-.guide-wrap select,
-.guide-wrap  .form-control {
+.guide-wrap textarea.form-control, .guide-wrap select, .guide-wrap .form-control {
     border-color: #aa96c7;
     color: #000000;
     background: none;
@@ -1194,18 +1201,20 @@ span.delete:hover {
 }
 
 /** Research Modal **/
-.researchModal2 .modal-header{
-    background:#c5ecf1;
+.researchModal2 .modal-header {
+    background: #c5ecf1;
     padding: 1rem 2rem;
 }
-.researchModal2 .modal-header .close{
+
+.researchModal2 .modal-header .close {
     top: 1rem;
     position: relative;
 }
-.researchModal2 .modal-header .wrap-label{
-  
-    width:100%;
+
+.researchModal2 .modal-header .wrap-label {
+    width: 100%;
 }
+
 .researchModal .modal-body {
     padding: 0;
 }
@@ -1298,6 +1307,9 @@ span.delete:hover {
 .campaings .swiper-button-prev {
     margin-right: 0;
     margin-left: 0;
+    transform:rotate(-180deg);
+    -webkit-transform:rotate(-180deg);
+    
 }
 
 .campaings {
@@ -1666,9 +1678,11 @@ footer a:hover:before {
     :root {
         font-size:8px
     }
-.wrap-tpl .info{
-    font-size:1.8rem;
-}
+
+    .wrap-tpl .info {
+        font-size: 1.8rem;
+    }
+
     .form-control {
         height: 3rem;
     }
@@ -1682,7 +1696,14 @@ footer a:hover:before {
     .wrap-create-btn .btn-create {
         font-size: 1.3rem;
     }
-
+    .dash-video h2{
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+    }
+    .dash-video {
+    max-width: 45rem;
+    margin: 0 auto;
+}
     .header .top-profile {
         padding: .5rem 0;
     }
@@ -1720,11 +1741,12 @@ footer a:hover:before {
 }
 
 @media (max-width: 575.98px) {
-    .wrap-tpl{
+    .wrap-tpl {
         padding:3rem;
     }
+
     .card-doc-two {
-        margin:2rem auto;
+        margin: 2rem auto;
     }
 
     .features-slider .swiper-pagination {
